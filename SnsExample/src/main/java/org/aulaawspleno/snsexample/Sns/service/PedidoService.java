@@ -1,15 +1,14 @@
-package Sns.service;
+package org.aulaawspleno.snsexample.Sns.service;
 
-import Sns.model.Product;
+import org.aulaawspleno.snsexample.Sns.model.Product;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
 import software.amazon.awssdk.services.sns.SnsClient;
 import software.amazon.awssdk.services.sns.model.*;
 import tools.jackson.databind.ObjectMapper;
 
-import java.util.HashMap;
-import java.util.Map;
-
+@Service
 public class PedidoService {
     private static final Logger log = LoggerFactory.getLogger(PedidoService.class);
 

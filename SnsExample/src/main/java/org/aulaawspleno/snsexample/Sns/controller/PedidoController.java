@@ -1,12 +1,12 @@
-package Sns.controller;
+package org.aulaawspleno.snsexample.Sns.controller;
 
-import Sns.model.Product;
-import Sns.service.PedidoService;
+import org.aulaawspleno.snsexample.Sns.model.Product;
+import org.aulaawspleno.snsexample.Sns.service.PedidoService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/pedidos")
+@RequestMapping("/sns")
 public class PedidoController {
     private final PedidoService service;
 

@@ -1,6 +1,6 @@
-package Sns.controller;
+package org.aulaawspleno.snsexample.Sns.controller;
 
-import Sns.service.PedidoReceiverService;
+import org.aulaawspleno.snsexample.Sns.service.PedidoReceiverService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

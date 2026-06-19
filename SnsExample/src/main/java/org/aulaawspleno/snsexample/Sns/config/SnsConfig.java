@@ -1,4 +1,4 @@
-package Sns.config;
+package org.aulaawspleno.snsexample.Sns.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package Sns.model;
+package org.aulaawspleno.snsexample.Sns.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
